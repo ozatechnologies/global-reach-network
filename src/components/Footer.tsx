@@ -7,11 +7,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold">YEDHANT INTERNATIONAL</h3>
+            <h3 className="text-xl font-bold">AQIZO INTERNATIONAL</h3>
             <p className="text-background/80 text-sm">
-              Your trusted partner for premium quality spices and food ingredients. 
-              We source the finest products from around the world to bring authentic 
-              flavors to your table.
+              Premium export company specializing in finest quality rice and spices. 
+              Excellence in every grain & spice, delivering India's rich agricultural 
+              heritage to global markets.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-background/80 hover:text-primary transition-colors">
@@ -45,11 +45,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Products</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Whole Spices</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Ground Spices</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Spice Blends</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Herbs & Seasonings</a></li>
-              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Organic Products</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Basmati Rice</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Sella Rice</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Premium Spices</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Turmeric & Cumin</a></li>
+              <li><a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Export Quality</a></li>
             </ul>
           </div>
 
@@ -60,18 +60,18 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <p className="text-background/80 text-sm">
-                  123 Spice Market Street<br />
-                  Mumbai, Maharashtra 400001<br />
-                  India
+                  Mahendra Nagar Chowkdi,<br />
+                  8-A National Highway, Morbi-2,<br />
+                  Gujarat, India
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary flex-shrink-0" />
-                <p className="text-background/80 text-sm">+91 98045 82155</p>
+                <p className="text-background/80 text-sm">+91 84870 27771</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                <p className="text-background/80 text-sm">info@yedhantinternational.com</p>
+                <p className="text-background/80 text-sm">aqizointernational11@gmail.com</p>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="border-t border-background/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-background/80 text-sm">
-              © 2024 Yedhant International. All rights reserved.
+              © 2024 AQIZO International. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-background/80 hover:text-primary transition-colors text-sm">Privacy Policy</a>

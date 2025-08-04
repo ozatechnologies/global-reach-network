@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-spices.jpg';
+import heroImage from '@/assets/hero-rice.jpg';
 
 const Hero = () => {
   return (
@@ -14,10 +14,10 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            WHOLE SPICES
+            EXCELLENCE IN EVERY GRAIN & SPICE
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90">
-            Premium quality spices and ingredients sourced from the finest farms worldwide
+            Premium export company specializing in finest quality rice and spices from India's rich agricultural heritage
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 

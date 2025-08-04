@@ -30,13 +30,13 @@ const CompanyInfo = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Welcome To YEDHANT INTERNATIONAL
+            Welcome To AQIZO INTERNATIONAL
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We are a leading supplier of premium spices and food ingredients, 
-            committed to delivering exceptional quality products to businesses 
-            and customers worldwide.
+            AQIZO International is a premium export company based in Morbi, Gujarat, India, 
+            specializing in sourcing and exporting the finest quality rice and spices across the globe. 
+            With a focus on excellence and authenticity, we aim to deliver products that reflect India's rich agricultural heritage.
           </p>
         </div>
 
@@ -57,26 +57,23 @@ const CompanyInfo = () => {
         <div className="mt-16 bg-card rounded-lg p-8 shadow-sm">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-card-foreground">Our Commitment</h3>
+              <h3 className="text-2xl font-bold mb-4 text-card-foreground">Our Vision & Mission</h3>
               <p className="text-muted-foreground mb-4">
-                At Yedhant International, we understand that quality is paramount when it comes 
-                to spices and food ingredients. Our team works tirelessly to maintain the highest 
-                standards of quality, purity, and freshness in every product we offer.
+                <strong>Vision:</strong> To become a globally trusted export brand delivering purity, quality, and value in every grain and spice we supply.
               </p>
               <p className="text-muted-foreground">
-                From farm to your table, we ensure complete traceability and quality control 
-                throughout our supply chain. Our commitment to excellence has made us a trusted 
-                partner for businesses across the globe.
+                <strong>Mission:</strong> To provide export-ready agricultural products that meet global quality standards, 
+                maintain transparency and consistency, and showcase the best of India's farming produce to global markets.
               </p>
             </div>
             <div className="bg-primary/5 p-6 rounded-lg">
               <h4 className="text-xl font-semibold mb-4 text-card-foreground">Quick Facts</h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Established in 2010</li>
-                <li>• 500+ Product varieties</li>
-                <li>• 50+ Countries served</li>
-                <li>• ISO certified facilities</li>
-                <li>• 24/7 customer support</li>
+                <li>• Based in Morbi, Gujarat</li>
+                <li>• Premium Rice & Spices</li>
+                <li>• Global Export Focus</li>
+                <li>• Quality Assured Products</li>
+                <li>• Authentic Indian Heritage</li>
               </ul>
             </div>
           </div>

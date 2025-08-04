@@ -4,28 +4,28 @@ import { Button } from '@/components/ui/button';
 const ProductCategories = () => {
   const categories = [
     {
-      title: "Whole Spices",
-      description: "Premium whole spices including cardamom, cinnamon, black pepper, and more",
+      title: "Premium Rice",
+      description: "Export-quality rice varieties including Basmati and specialty rices",
+      image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=500&q=80",
+      products: ["1121 Basmati Rice", "Pusa Basmati Rice", "Sona Masoori Rice", "Jeerakashala Rice"]
+    },
+    {
+      title: "Processed Rice",
+      description: "Steam, Sella, and Parboiled rice varieties for global markets",
+      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=500&q=80",
+      products: ["White Sella Rice", "Parboiled Rice", "Steam Rice", "Raw Basmati"]
+    },
+    {
+      title: "Premium Spices",
+      description: "Authentic Indian spices sourced from finest farms across India",
       image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=500&q=80",
-      products: ["Cardamom", "Cinnamon", "Black Pepper", "Cloves"]
+      products: ["Turmeric Fingers", "Cumin Seeds", "Coriander Seeds", "Red Chilli"]
     },
     {
-      title: "Ground Spices",
-      description: "Freshly ground spice powders for authentic flavors in your cooking",
+      title: "Spice Powders",
+      description: "Fresh ground spice powders maintaining authentic flavors and quality",
       image: "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=500&q=80",
-      products: ["Turmeric Powder", "Red Chili Powder", "Coriander Powder", "Cumin Powder"]
-    },
-    {
-      title: "Spice Blends",
-      description: "Expertly crafted spice blends for traditional and contemporary cuisines",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=500&q=80",
-      products: ["Garam Masala", "Curry Powder", "Biryani Masala", "Tandoori Masala"]
-    },
-    {
-      title: "Herbs & Seasonings",
-      description: "Fresh dried herbs and seasonings to enhance your culinary creations",
-      image: "https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=500&q=80",
-      products: ["Dried Basil", "Oregano", "Thyme", "Bay Leaves"]
+      products: ["Turmeric Powder", "Green Chilli", "Custom Blends", "Other Indian Spices"]
     }
   ];
 

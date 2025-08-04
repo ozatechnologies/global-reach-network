@@ -14,12 +14,12 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>contact@company.com</span>
+              <span>aqizointernational11@gmail.com</span>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <Phone className="h-4 w-4" />
-            <span>Call Us:- +1-234-567-8900</span>
+            <span>Call Us:- +91 84870 27771</span>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ const Header = () => {
             {/* Logo */}
             <div className="flex items-center">
               <h1 className="text-2xl md:text-3xl font-bold text-foreground">
-                YEDHANT INTERNATIONAL
+                AQIZO INTERNATIONAL
               </h1>
             </div>
 

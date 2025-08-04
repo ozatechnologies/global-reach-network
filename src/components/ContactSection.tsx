@@ -30,9 +30,9 @@ const ContactSection = () => {
                   <div>
                     <h3 className="font-semibold text-card-foreground mb-2">Address</h3>
                     <p className="text-muted-foreground">
-                      123 Spice Market Street<br />
-                      Mumbai, Maharashtra 400001<br />
-                      India
+                      Mahendra Nagar Chowkdi,<br />
+                      8-A National Highway, Morbi-2,<br />
+                      Gujarat, India
                     </p>
                   </div>
                 </div>
@@ -48,8 +48,8 @@ const ContactSection = () => {
                   <div>
                     <h3 className="font-semibold text-card-foreground mb-2">Phone</h3>
                     <p className="text-muted-foreground">
-                      +91 98045 82155<br />
-                      +91 22 2345 6789
+                      +91 84870 27771<br />
+                      +91 91041 41300
                     </p>
                   </div>
                 </div>
@@ -65,8 +65,8 @@ const ContactSection = () => {
                   <div>
                     <h3 className="font-semibold text-card-foreground mb-2">Email</h3>
                     <p className="text-muted-foreground">
-                      info@yedhantinternational.com<br />
-                      sales@yedhantinternational.com
+                      aqizointernational11@gmail.com<br />
+                      @aqizo_internationalexport
                     </p>
                   </div>
                 </div>
