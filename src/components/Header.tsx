@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       {/* Top Contact Bar */}
-      <div className="bg-primary text-primary-foreground py-2 px-4">
+      <div className="bg-gradient-to-r from-primary via-meadow-green to-accent text-primary-foreground py-2 px-4">
         <div className="container mx-auto flex justify-between items-center text-sm">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">

@@ -62,9 +62,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				'warm-brown': 'hsl(var(--warm-brown))',
-				'warm-brown-light': 'hsl(var(--warm-brown-light))',
-				'spice-orange': 'hsl(var(--spice-orange))',
+				// AQIZO Agricultural theme colors
+				'forest-green': 'hsl(var(--forest-green))',
+				'meadow-green': 'hsl(var(--meadow-green))',
+				'harvest-gold': 'hsl(var(--harvest-gold))',
+				'earth-brown': 'hsl(var(--earth-brown))',
+				'rice-white': 'hsl(var(--rice-white))',
 				cream: 'hsl(var(--cream))'
 			},
 			borderRadius: {
