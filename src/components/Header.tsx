@@ -2,12 +2,15 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Search, Menu, X, Phone, Mail } from 'lucide-react';
+import FallingRice from './FallingRice';
+
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return <>
       {/* Top Contact Bar */}
-      <div className="bg-gradient-to-r from-primary via-meadow-green to-accent text-primary-foreground py-2 px-4">
-        <div className="container mx-auto flex justify-between items-center text-sm">
+      <div className="relative bg-gradient-to-r from-primary via-paprika-orange to-accent text-primary-foreground py-2 px-4 overflow-hidden">
+        <FallingRice />
+        <div className="container mx-auto flex justify-between items-center text-sm relative z-10">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />

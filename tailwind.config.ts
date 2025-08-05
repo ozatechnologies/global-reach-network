@@ -65,11 +65,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// AQIZO Agricultural theme colors
-				'forest-green': 'hsl(var(--forest-green))',
-				'meadow-green': 'hsl(var(--meadow-green))',
-				'harvest-gold': 'hsl(var(--harvest-gold))',
-				'earth-brown': 'hsl(var(--earth-brown))',
+				// AQIZO Spicy theme colors
+				'chili-red': 'hsl(var(--chili-red))',
+				'paprika-orange': 'hsl(var(--paprika-orange))',
+				'turmeric-yellow': 'hsl(var(--turmeric-yellow))',
+				'cinnamon-brown': 'hsl(var(--cinnamon-brown))',
 				'rice-white': 'hsl(var(--rice-white))',
 				cream: 'hsl(var(--cream))'
 			},
@@ -94,11 +94,25 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fall': {
+					'0%': {
+						transform: 'translateY(-100vh) rotate(0deg)',
+						opacity: '0'
+					},
+					'10%': {
+						opacity: '1'
+					},
+					'100%': {
+						transform: 'translateY(100vh) rotate(360deg)',
+						opacity: '0'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fall': 'fall 8s linear infinite'
 			}
 		}
 	},
