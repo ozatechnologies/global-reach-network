@@ -30,9 +30,11 @@ const Header = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center">
-              <h1 className="text-2xl md:text-3xl font-bold text-foreground">
-                AQIZO INTERNATIONAL
-              </h1>
+              <img 
+                src="/lovable-uploads/ff9c5dff-91a2-48b9-a83e-2e821ec05eb4.png" 
+                alt="AQIZO International" 
+                className="h-10 md:h-12 w-auto" 
+              />
             </div>
 
             {/* Desktop Navigation */}
