@@ -2,12 +2,9 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Search, Menu, X, Phone, Mail } from 'lucide-react';
-
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  return (
-    <>
+  return <>
       {/* Top Contact Bar */}
       <div className="bg-gradient-to-r from-primary via-meadow-green to-accent text-primary-foreground py-2 px-4">
         <div className="container mx-auto flex justify-between items-center text-sm">
@@ -30,11 +27,9 @@ const Header = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center">
-              <img 
-                src="/lovable-uploads/ff9c5dff-91a2-48b9-a83e-2e821ec05eb4.png" 
-                alt="AQIZO International" 
-                className="h-10 md:h-12 w-auto" 
-              />
+              <h1 className="text-2xl md:text-3xl font-bold text-foreground object-fill">
+                AQIZO INTERNATIONAL
+              </h1>
             </div>
 
             {/* Desktop Navigation */}
@@ -57,10 +52,7 @@ const Header = () => {
             <div className="flex items-center gap-4">
               {/* Search Bar */}
               <div className="hidden md:flex items-center relative">
-                <Input 
-                  placeholder="Search Products..." 
-                  className="w-64 pr-10" 
-                />
+                <Input placeholder="Search Products..." className="w-64 pr-10" />
                 <Search className="absolute right-3 h-4 w-4 text-muted-foreground" />
               </div>
 
@@ -70,20 +62,14 @@ const Header = () => {
               </Button>
 
               {/* Mobile Menu Button */}
-              <Button
-                variant="ghost"
-                size="icon"
-                className="md:hidden"
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              >
+              <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
                 {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </Button>
             </div>
           </div>
 
           {/* Mobile Menu */}
-          {isMobileMenuOpen && (
-            <div className="md:hidden mt-4 pb-4 border-t border-border">
+          {isMobileMenuOpen && <div className="md:hidden mt-4 pb-4 border-t border-border">
               <nav className="flex flex-col space-y-4 mt-4">
                 <a href="#" className="text-foreground hover:text-primary transition-colors">
                   Home Page
@@ -105,12 +91,9 @@ const Header = () => {
                 </div>
                 <Button className="mt-2">Send Inquiry</Button>
               </nav>
-            </div>
-          )}
+            </div>}
         </div>
       </header>
-    </>
-  );
+    </>;
 };
-
 export default Header;
