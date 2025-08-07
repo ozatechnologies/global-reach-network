@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* AQIZO Spicy Theme */
+    /* AQIZO Premium Spicy Theme */
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
 
@@ -37,19 +37,25 @@ All colors MUST be HSL.
     --input: 20 14.3% 91.4%;
     --ring: 14 88% 55%;
 
-    /* AQIZO Custom Spicy design tokens */
+    /* Premium AQIZO Spice Collection Colors */
     --chili-red: 14 88% 55%;
     --paprika-orange: 24 95% 53%;
     --turmeric-yellow: 45 93% 58%;
     --cinnamon-brown: 30 67% 34%;
     --cream: 35 44% 96%;
     --rice-white: 60 9% 98%;
+    --golden-sella: 42 78% 60%;
+    --basmati-pearl: 50 20% 95%;
     
-    /* Spicy gradients */
+    /* Premium gradients and effects */
+    --premium-gold: linear-gradient(135deg, hsl(42 78% 60%), hsl(45 93% 58%), hsl(35 91% 55%));
     --spice-gradient: linear-gradient(135deg, hsl(14 88% 55%), hsl(45 93% 58%));
     --hero-gradient: linear-gradient(135deg, hsl(14 88% 55% / 0.9), hsl(24 95% 53% / 0.7), hsl(45 93% 58% / 0.5));
-    --shadow-natural: 0 10px 30px -10px hsl(142 76% 36% / 0.2);
+    --luxury-shadow: 0 25px 50px -12px hsl(14 88% 55% / 0.25);
+    --card-shadow: 0 10px 30px -10px hsl(0 0% 0% / 0.1);
+    --glow-effect: 0 0 40px hsl(45 93% 58% / 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-luxury: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 
     --radius: 0.75rem;
 
