@@ -19,7 +19,10 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'sans': ['Inter', 'system-ui', 'sans-serif'],
+				'sans': ['Montserrat', 'system-ui', 'sans-serif'],
+				'serif': ['Playfair Display', 'serif'],
+				'cursive': ['Dancing Script', 'cursive'],
+				'display': ['Playfair Display', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -65,13 +68,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// AQIZO Spicy theme colors
-				'chili-red': 'hsl(var(--chili-red))',
-				'paprika-orange': 'hsl(var(--paprika-orange))',
-				'turmeric-yellow': 'hsl(var(--turmeric-yellow))',
-				'cinnamon-brown': 'hsl(var(--cinnamon-brown))',
-				'rice-white': 'hsl(var(--rice-white))',
-				cream: 'hsl(var(--cream))'
+				// Ultra Premium Luxury Spice theme colors
+				'deep-saffron': 'hsl(var(--deep-saffron))',
+				'golden-turmeric': 'hsl(var(--golden-turmeric))',
+				'royal-paprika': 'hsl(var(--royal-paprika))',
+				'amber-glow': 'hsl(var(--amber-glow))',
+				'cinnamon-bronze': 'hsl(var(--cinnamon-bronze))',
+				'cream-silk': 'hsl(var(--cream-silk))',
+				'pearl-white': 'hsl(var(--pearl-white))',
+				'charcoal-spice': 'hsl(var(--charcoal-spice))',
+				'warm-beige': 'hsl(var(--warm-beige))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

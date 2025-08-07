@@ -8,17 +8,17 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* AQIZO Premium Spicy Theme */
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    /* Ultra Luxury AQIZO Spice Theme */
+    --background: 0 0% 99%;
+    --foreground: 20 14% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
+    --card-foreground: 20 14% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
+    --popover-foreground: 20 14% 12%;
 
-    --primary: 14 88% 55%;
+    --primary: 14 88% 35%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 24 70% 96%;
@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --muted: 24 70% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 35 91% 55%;
+    --accent: 35 91% 45%;
     --accent-foreground: 0 0% 9%;
 
     --destructive: 0 84.2% 60.2%;
@@ -35,29 +35,30 @@ All colors MUST be HSL.
 
     --border: 20 14.3% 91.4%;
     --input: 20 14.3% 91.4%;
-    --ring: 14 88% 55%;
+    --ring: 14 88% 35%;
 
-    /* Premium AQIZO Spice Collection Colors */
-    --chili-red: 14 88% 55%;
-    --paprika-orange: 24 95% 53%;
-    --turmeric-yellow: 45 93% 58%;
-    --cinnamon-brown: 30 67% 34%;
-    --cream: 35 44% 96%;
-    --rice-white: 60 9% 98%;
-    --golden-sella: 42 78% 60%;
-    --basmati-pearl: 50 20% 95%;
+    /* Ultra Premium Luxury Spice Palette */
+    --deep-saffron: 14 88% 35%;
+    --golden-turmeric: 42 78% 50%;
+    --royal-paprika: 16 85% 40%;
+    --amber-glow: 45 93% 58%;
+    --cinnamon-bronze: 30 67% 25%;
+    --cream-silk: 35 44% 98%;
+    --pearl-white: 60 9% 99%;
+    --charcoal-spice: 20 14% 12%;
+    --warm-beige: 25 25% 90%;
     
-    /* Premium gradients and effects */
-    --premium-gold: linear-gradient(135deg, hsl(42 78% 60%), hsl(45 93% 58%), hsl(35 91% 55%));
-    --spice-gradient: linear-gradient(135deg, hsl(14 88% 55%), hsl(45 93% 58%));
-    --hero-gradient: linear-gradient(135deg, hsl(14 88% 55% / 0.9), hsl(24 95% 53% / 0.7), hsl(45 93% 58% / 0.5));
-    --luxury-shadow: 0 25px 50px -12px hsl(14 88% 55% / 0.25);
-    --card-shadow: 0 10px 30px -10px hsl(0 0% 0% / 0.1);
-    --glow-effect: 0 0 40px hsl(45 93% 58% / 0.3);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-luxury: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+    /* Luxury gradients and effects */
+    --luxury-gold: linear-gradient(135deg, hsl(42 78% 50%), hsl(45 93% 58%), hsl(35 91% 55%));
+    --spice-royal: linear-gradient(135deg, hsl(14 88% 35%), hsl(16 85% 40%), hsl(30 67% 25%));
+    --silk-gradient: linear-gradient(135deg, hsl(35 44% 98%), hsl(60 9% 99%));
+    --premium-shadow: 0 20px 60px -12px hsl(14 88% 35% / 0.25);
+    --luxury-glow: 0 0 60px hsl(42 78% 50% / 0.4);
+    --glass-effect: rgba(255, 255, 255, 0.1);
+    --backdrop-luxury: backdrop-filter: blur(20px);
+    --transition-royal: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
